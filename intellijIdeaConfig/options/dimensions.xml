@@ -5,8 +5,10 @@
     <location key="new project wizard.0.0.2560.1440" x="860" y="138" />
     <location key="NewModule_or_Project.wizard.0.0.2560.1440" x="875" y="191" />
     <location key="com.intellij.ide.util.TipDialog.2560.0.2560.1440" x="3551" y="534" />
+    <location key="SettingsEditor.2560.0.2560.1440" x="3316" y="372" />
     <size key="FileChooserDialogImpl.0.0.2560.1440" width="489" height="505" />
     <size key="new project wizard.0.0.2560.1440" width="830" height="843" />
     <size key="NewModule_or_Project.wizard.0.0.2560.1440" width="801" height="737" />
+    <size key="SettingsEditor.2560.0.2560.1440" width="1037" height="703" />
   </component>
 </application>
