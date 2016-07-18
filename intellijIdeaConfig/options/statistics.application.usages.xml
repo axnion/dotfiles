@@ -2,6 +2,10 @@
   <component name="UsageTrigger">
     <counts>
       <entry feature="ide.settings.Appearance" count="1" />
+      <entry feature="ide.settings.Code_Style" count="1" />
+      <entry feature="ide.settings.Colors_&amp;_Fonts" count="1" />
+      <entry feature="ide.settings.File_and_Code_Templates" count="2" />
+      <entry feature="ide.settings.Font" count="2" />
       <entry feature="ideaapp.started" count="5" />
       <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="1" />
       <entry feature="welcome.screen.WelcomeScreen.ImportProject" count="1" />

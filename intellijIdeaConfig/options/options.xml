@@ -14,5 +14,10 @@
     <property name="toolwindow.stripes.buttons.info.shown" value="true" />
     <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
     <property name="lastTip" value="3" />
+    <property name="gradle.test.runner.text.console_str" value="false" />
+    <property name="Gradle.Splitter.Proportion" value="0.42022562" />
+    <property name="settings.code.style.selected.tab.JAVA" value="Spaces" />
+    <property name="selected.color.option.type" value="LINE_FULL_COVERAGE" />
+    <property name="FileTemplates.SelectedTemplate" value="Enum" />
   </component>
 </application>

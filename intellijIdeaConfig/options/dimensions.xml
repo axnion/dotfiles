@@ -6,9 +6,16 @@
     <location key="NewModule_or_Project.wizard.0.0.2560.1440" x="875" y="191" />
     <location key="com.intellij.ide.util.TipDialog.2560.0.2560.1440" x="3551" y="534" />
     <location key="SettingsEditor.2560.0.2560.1440" x="3316" y="372" />
+    <location key="SettingsEditor.0.0.2560.1440" x="207" y="132" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.2560.1440" x="738" y="371" />
     <size key="FileChooserDialogImpl.0.0.2560.1440" width="489" height="505" />
     <size key="new project wizard.0.0.2560.1440" width="830" height="843" />
     <size key="NewModule_or_Project.wizard.0.0.2560.1440" width="801" height="737" />
     <size key="SettingsEditor.2560.0.2560.1440" width="1037" height="703" />
+    <size key="SettingsEditor.0.0.2560.1440" width="1586" height="943" />
+    <size key="GridCell.Tab.0.left.0.0.2560.1440" width="2512" height="718" />
+    <size key="GridCell.Tab.0.center.0.0.2560.1440" width="2512" height="718" />
+    <size key="GridCell.Tab.0.right.0.0.2560.1440" width="2512" height="718" />
+    <size key="GridCell.Tab.0.bottom.0.0.2560.1440" width="2512" height="718" />
   </component>
 </application>
