@@ -1,3 +1,13 @@
 # Linux Configurations
+Put Configurations folder in ~
 
-## Intellij Idea Configurations
+## IntelliJ Idea Configurations
+```
+
+```
+
+## .bashrc
+```
+$ rm ~/.bashrc
+$ ln -s ~/Configurations/bashrc ~/.bashrc
+```
