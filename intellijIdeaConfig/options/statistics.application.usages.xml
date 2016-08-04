@@ -1,12 +1,41 @@
 <application>
+  <component name="StatisticsApplicationUsages">
+    <group name="JavaScript versions">
+      <project id="RSSReader" values="ECMAScript 5.1" collectionTime="1470276183648" />
+    </group>
+    <group name="module type">
+      <project id="RSSReader" values="JAVA_MODULE" collectionTime="1470276183269" />
+    </group>
+    <group name="run-configuration-type-temp">
+      <project id="RSSReader" values="GradleRunConfiguration" collectionTime="1470276183270" />
+    </group>
+    <group name="file-type">
+      <project id="RSSReader" values="Images,ARCHIVE,JSON Schema,SQLite Database,XML,JAVA,PLAIN_TEXT,Properties,CSS,Groovy" collectionTime="1470276183517" />
+    </group>
+    <group name="images.ide.background">
+      <project id="RSSReader" values="editor=0,frame=0" collectionTime="1470276183559" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="RSSReader" values="Project,Project" collectionTime="1470276183648" />
+    </group>
+    <group name="Git">
+      <project id="RSSReader" values="config.save.policy.STASH,config.ssh.enabled,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled" collectionTime="1470276183565" />
+    </group>
+    <group name="language-level">
+      <project id="RSSReader" values="JDK_1_8" collectionTime="1470276183560" />
+    </group>
+  </component>
   <component name="UsageTrigger">
     <counts>
+      <entry feature="execute.GradleRunConfiguration.Debug" count="7" />
+      <entry feature="execute.GradleRunConfiguration.Run" count="179" />
       <entry feature="ide.settings.Appearance" count="1" />
       <entry feature="ide.settings.Code_Style" count="1" />
       <entry feature="ide.settings.Colors_&amp;_Fonts" count="1" />
       <entry feature="ide.settings.File_and_Code_Templates" count="2" />
       <entry feature="ide.settings.Font" count="2" />
-      <entry feature="ideaapp.started" count="5" />
+      <entry feature="ide.settings.Runner" count="2" />
+      <entry feature="ideaapp.started" count="26" />
       <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="1" />
       <entry feature="welcome.screen.WelcomeScreen.ImportProject" count="1" />
     </counts>

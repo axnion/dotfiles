@@ -1,0 +1,18 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>feedListExists</find>
+      <find>1451651401</find>
+      <find>1420113600000</find>
+      <find>getSorting</find>
+      <find>Mocks.createRss</find>
+      <find>, null</find>
+      <find>minutes</find>
+      <find>details</find>
+      <find>text</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>seconds</replace>
+    </replaceStrings>
+  </component>
+</application>
