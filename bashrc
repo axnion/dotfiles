@@ -11,3 +11,6 @@ fi
 # User specific aliases and functions
 # Run twolfson/sexy-bash-prompt
 . ~/.bash_prompt
+
+export GOPATH=$HOME/Development/golang
+export PATH=$PATH:$GOPATH/bin
