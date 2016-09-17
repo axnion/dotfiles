@@ -1,26 +1,32 @@
 <application>
   <component name="PropertiesComponent">
     <property name="evlsprt3.162" value="10" />
-    <property name="installed.kotlin.plugin.version" value="1.0.2-1-release-IJ145-20" />
-    <property name="android-component-compatibility-check" value="1470276074224" />
+    <property name="installed.kotlin.plugin.version" value="1.0.3-release-IJ2016.1-120" />
+    <property name="android-component-compatibility-check" value="1472349704074" />
     <property name="project.wizard.group" value="org.jetbrains.plugins.gradle.service.project.wizard.GradleModuleBuilder" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/Development/an222yp-project&#10;/usr/java/latest&#10;/usr/java/jdk1.8.0_92" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Development/rssreader&#10;/home/axnion/Development/temp/rssreader&#10;/home/axnion/Development/an222yp-project&#10;/usr/java/latest&#10;/usr/java/jdk1.8.0_92" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (1)" />
     <property name="GradleModuleWizard.inheritGroupId" value="true" />
     <property name="GradleModuleWizard.inheritVersion" value="true" />
     <property name="project.wizard.template" value="Gradle" />
-    <property name="last.imported.location" value="$USER_HOME$/Development/an222yp-project" />
+    <property name="last.imported.location" value="$USER_HOME$/Development/rssreader" />
     <property name="create.project.preferred.importer" value="Gradle" />
     <property name="toolwindow.stripes.buttons.info.shown" value="true" />
     <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
     <property name="lastTip" value="4" />
     <property name="gradle.test.runner.text.console_str" value="false" />
-    <property name="Gradle.Splitter.Proportion" value="0.4439968" />
+    <property name="Gradle.Splitter.Proportion" value="0.47058824" />
     <property name="settings.code.style.selected.tab.JAVA" value="Spaces" />
     <property name="selected.color.option.type" value="LINE_FULL_COVERAGE" />
     <property name="FileTemplates.SelectedTemplate" value="HTML File" />
     <property name="gradle.runner.text.console_str" value="true" />
     <property name="gradle.runner.text.console" value="true" />
-    <property name="ColorChooser.RecentColors" value="134-166-180-255" />
+    <property name="ColorChooser.RecentColors" value="134-166-180-255,,,81-85-85-255,,,73-79-79-255" />
+    <property name="GradleSupport.hideIgnoredTests" value="true" />
+    <property name="GradleSupport.hidePassedTests" value="true" />
+    <property name="fileTypeChangedCounter" value="3" />
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="last.used.gradle.home" value="/usr/share/gradle" />
+    <property name="search.everywhere.max.popup.width" value="620" />
   </component>
 </application>

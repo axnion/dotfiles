@@ -1268,6 +1268,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.flatbuffers">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.pdehaan.idea-plugin-flatbuffers" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.flex">
       <plugins>
         <option name="myPlugins">
@@ -1823,6 +1836,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.ixml">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.moe.designer.ios" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.jade">
       <plugins>
         <option name="myPlugins">
@@ -2042,6 +2068,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="k-infinity" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.ks">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="kos-ksp.idea-plugin" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -2283,19 +2322,6 @@
         </option>
       </plugins>
     </entry>
-    <entry key="*.markdown">
-      <plugins>
-        <option name="myPlugins">
-          <set>
-            <plugin>
-              <option name="myPluginId" value="com.vladsch.idea.multimarkdown" />
-              <option name="myPluginName" />
-              <option name="myBundled" value="false" />
-            </plugin>
-          </set>
-        </option>
-      </plugins>
-    </entry>
     <entry key="*.mas">
       <plugins>
         <option name="myPlugins">
@@ -2362,16 +2388,6 @@
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
-            <plugin>
-              <option name="myPluginId" value="com.vladsch.idea.multimarkdown" />
-              <option name="myPluginName" />
-              <option name="myBundled" value="false" />
-            </plugin>
-            <plugin>
-              <option name="myPluginId" value="org.intellij.plugins.markdown" />
-              <option name="myPluginName" />
-              <option name="myBundled" value="false" />
-            </plugin>
           </set>
         </option>
       </plugins>
@@ -2408,19 +2424,6 @@
           <set>
             <plugin>
               <option name="myPluginId" value="org.mirah.idea.plugin" />
-              <option name="myPluginName" />
-              <option name="myBundled" value="false" />
-            </plugin>
-          </set>
-        </option>
-      </plugins>
-    </entry>
-    <entry key="*.mkd">
-      <plugins>
-        <option name="myPlugins">
-          <set>
-            <plugin>
-              <option name="myPluginId" value="com.vladsch.idea.multimarkdown" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -2511,19 +2514,6 @@
         </option>
       </plugins>
     </entry>
-    <entry key="*.multimarkdown">
-      <plugins>
-        <option name="myPlugins">
-          <set>
-            <plugin>
-              <option name="myPluginId" value="com.vladsch.idea.multimarkdown" />
-              <option name="myPluginName" />
-              <option name="myBundled" value="false" />
-            </plugin>
-          </set>
-        </option>
-      </plugins>
-    </entry>
     <entry key="*.mustache">
       <plugins>
         <option name="myPlugins">
@@ -2595,6 +2585,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="AngularJS" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.nginx">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="ideanginx9" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -3307,6 +3310,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="Pythonid" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.ql">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.q-ide" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -4377,6 +4393,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.tmpl">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.basisjs" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.top">
       <plugins>
         <option name="myPlugins">
@@ -5045,6 +5074,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="mobi.hsz.idea.gitignore" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key=".flowconfig">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.plugins.ini4idea" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>

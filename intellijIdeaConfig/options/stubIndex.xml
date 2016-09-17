@@ -2,6 +2,7 @@
   <component name="FileBasedIndex">
     <option name="registeredIndices">
       <list>
+        <option value="markdown.flexmark.example.option.index" />
         <option value="java.unit.tree" />
         <option value="java.class.fqn" />
         <option value="java.class.shortname" />
