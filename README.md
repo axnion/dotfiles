@@ -1,10 +1,10 @@
 # Linux Configurations
-Put Configurations folder in ~
+Put Configurations folder in user home folder
 
-## IntelliJ Idea Configurations
+## Gnome Extensions
 ```
-$ rm -r ~/[IntellijFolder]/config
-$ ln -s ~/Configurations/intellijIdeaConfig ~/[IntellijFolder]/config
+$ ln -s ~/Configurations/gnome-extensions ~/.local/share/gnome-shell/extensions
+$ ln -s ~/Configurations/dconf ~/.config/dconf
 ```
 
 ## .bashrc
@@ -16,4 +16,9 @@ $ ln -s ~/Configurations/bashrc ~/.bashrc
 ## .nanorc
 ```
 $ ln -s ~/Configurations/nanorc ~/.nanorc
+```
+
+## .tmux.conf
+```
+$ ln -s ~/Configurations/tmux.conf ~/.tmux.conf
 ```
