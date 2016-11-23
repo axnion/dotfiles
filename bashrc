@@ -12,8 +12,11 @@ fi
 # Run twolfson/sexy-bash-prompt
 . ~/.bash_prompt
 
+# EXPORTS
 export GOPATH=$HOME/Development/golang
 export PATH=$PATH:$GOPATH/bin
 export VAGRANT_DEFAULT_PROVIDER="virtualbox"
-
 export PATH=$PATH:/opt/GitKraken
+
+# OTHER
+tmux
