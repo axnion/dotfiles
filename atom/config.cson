@@ -1,0 +1,24 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "monokai-seti"
+    ]
+  editor:
+    fontSize: 17
+    tabLength: 4
+  "exception-reporting":
+    userId: "15281e3c-6f54-cdc4-6d48-d3dc6f44761f"
+  "markdown-pdf":
+    type: "png"
+  "spell-check":
+    grammars: [
+      "source.asciidoc"
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+      "text.plain.null-grammar text.md"
+    ]
+  welcome:
+    showOnStartup: false
