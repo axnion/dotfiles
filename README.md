@@ -1,24 +1,27 @@
 # Linux Configurations
-Put Configurations folder in user home folder
+Put configurations folder in user home folder
 
 ## Gnome Extensions
 ```
-$ ln -s ~/Configurations/gnome-extensions ~/.local/share/gnome-shell/extensions
-$ ln -s ~/Configurations/dconf ~/.config/dconf
+$ ln -s ~/configurations/gnome-extensions ~/.local/share/gnome-shell/extensions
+$ ln -s ~/configurations/dconf ~/.config/dconf
 ```
 
 ## .bashrc
 ```
 $ rm ~/.bashrc
-$ ln -s ~/Configurations/bashrc ~/.bashrc
+$ ln -s ~/configurations/bashrc ~/.bashrc
 ```
 
 ## .nanorc
 ```
-$ ln -s ~/Configurations/nanorc ~/.nanorc
+$ ln -s ~/configurations/nanorc ~/.nanorc
 ```
 
 ## .tmux.conf
 ```
-$ ln -s ~/Configurations/tmux.conf ~/.tmux.conf
+$ ln -s ~/configurations/tmux.conf ~/.tmux.conf
 ```
+## atom
+$ ln -s ~/configurations/atom/config.cson ~/.atom/config.cson
+$ apm install 'cat ~/configurations/atom/packages.list'
