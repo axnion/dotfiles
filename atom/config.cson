@@ -7,9 +7,15 @@
     ]
   editor:
     fontSize: 17
+    preferredLineLength: 100
     tabLength: 4
   "exception-reporting":
     userId: "15281e3c-6f54-cdc4-6d48-d3dc6f44761f"
+  "go-plus":
+    currentPanelHeight: "25.68033381712627vh"
+    panelOrientation: "vertical"
+  linter:
+    errorPanelHeight: 26
   "markdown-pdf":
     type: "png"
   "spell-check":
@@ -20,5 +26,7 @@
       "text.plain"
       "text.plain.null-grammar text.md"
     ]
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
