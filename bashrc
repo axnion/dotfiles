@@ -11,6 +11,11 @@ fi
 # Run twolfson/sexy-bash-prompt. Download at https://github.com/twolfson/sexy-bash-prompt
 . ~/.bash_prompt
 
+# Autostart tmux
+if [[ ! $TERM =~ screen ]]; then
+		exec tmux
+fi
+
 # EXPORTS
 export GOPATH=$HOME/dev/go
 export PATH=$PATH:$GOPATH/bin
