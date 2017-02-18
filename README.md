@@ -22,6 +22,14 @@ $ ln -s ~/configurations/nanorc ~/.nanorc
 ```
 $ ln -s ~/configurations/tmux.conf ~/.tmux.conf
 ```
+
+## .vimrc
+```
+ls -s ~/configurations/vimrc ~/.vimrc
+```
+
 ## atom
+```
 $ ln -s ~/configurations/atom/config.cson ~/.atom/config.cson
-$ apm install 'cat ~/configurations/atom/packages.list'
+$ apm install --packages-file ~/configurations/atom/packages.list
+```
