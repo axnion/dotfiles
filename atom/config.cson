@@ -1,5 +1,8 @@
 "*":
   core:
+    disabledPackages: [
+      "go-debug"
+    ]
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
@@ -13,6 +16,7 @@
     userId: "15281e3c-6f54-cdc4-6d48-d3dc6f44761f"
   "go-plus":
     currentPanelHeight: "25.68033381712627vh"
+    currentPanelWidth: "14.960937499999998vw"
     panelOrientation: "vertical"
   linter:
     errorPanelHeight: 26
@@ -26,7 +30,6 @@
       "text.plain"
       "text.plain.null-grammar text.md"
     ]
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   welcome:
     showOnStartup: false
