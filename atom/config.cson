@@ -1,7 +1,23 @@
 "*":
+  "atom-package-deps":
+    ignored: [
+      "go-signature-statusbar"
+    ]
   core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".hgrc"
+        ".flowconfig"
+      ]
+      "source.json": [
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
     disabledPackages: [
-      "go-debug"
+      "linter-jscs"
     ]
     telemetryConsent: "no"
     themes: [
@@ -18,8 +34,9 @@
     currentPanelHeight: "25.68033381712627vh"
     currentPanelWidth: "14.960937499999998vw"
     panelOrientation: "vertical"
-  linter:
-    errorPanelHeight: 26
+  linter: {}
+  "linter-ui-default":
+    panelHeight: 69
   "markdown-pdf":
     type: "png"
   "spell-check":
@@ -30,6 +47,10 @@
       "text.plain"
       "text.plain.null-grammar text.md"
     ]
+  "sync-settings":
+    _lastBackupHash: "373763ae55d3e0484e69df7f6038708d90c86608"
+    gistId: "9f9adb294e17079661f1ff2e0955d153"
+    personalAccessToken: "cc194b4bf1f76d313bf9a2e86266fe2b3890e62c"
   "tree-view": {}
   welcome:
     showOnStartup: false
