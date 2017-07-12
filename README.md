@@ -19,5 +19,5 @@ $ ln -s ~/configurations/tmux.conf ~/.tmux.conf
 
 ## .vimrc
 ```
-ls -s ~/configurations/vimrc ~/.vimrc
+$ ln -s ~/configurations/vimrc ~/.vimrc
 ```
