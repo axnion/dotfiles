@@ -17,15 +17,14 @@ if [[ ! $TERM =~ screen ]]; then
 fi
 
 # EXPORTS
-export GOPATH=$HOME/dev/go
-export PATH=$PATH:$GOPATH/bin
-export VAGRANT_DEFAULT_PROVIDER="virtualbox"
-export PATH=$PATH:/opt/GitKraken
 export TERM="xterm-256color"
 export EDITOR="vim"
-# Run twolfson/sexy-bash-prompt
-. ~/.bash_prompt
-
 export JAVA_HOME=/usr/lib/jvm/default
 
 alias dockerpurge='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q) && docker rmi $(docker images -q)'
+
+# Run environment variables script
+source ~/.variables
+
+# Run twolfson/sexy-bash-prompt
+. ~/.bash_prompt
