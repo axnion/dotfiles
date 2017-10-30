@@ -1,15 +1,5 @@
 # .bashrc
 
-# Source global definitions
-if [ -f /etc/bashrc ]; then
-	. /etc/bashrc
-fi
-
-# Uncomment the following line if you don't like systemctl's auto-paging feature:
-# export SYSTEMD_PAGER=
-
-# Run twolfson/sexy-bash-prompt. Download at https://github.com/twolfson/sexy-bash-prompt
-
 # Autostart tmux
 if [[ ! $TERM =~ screen ]]; then
 		exec tmux
@@ -20,12 +10,6 @@ export TERM="xterm-256color"
 export EDITOR="vim"
 
 alias dockerpurge='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q) && docker rmi $(docker images -q)'
-
-# Run environment variables script
-source ~/.variables
-
-# Run twolfson/sexy-bash-prompt
-# . ~/.bash_prompt
 
 function _update_ps1() {
     PS1="$(powerline-go -error $? -newline)"
