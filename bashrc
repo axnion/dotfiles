@@ -25,4 +25,12 @@ alias dockerpurge='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q
 source ~/.variables
 
 # Run twolfson/sexy-bash-prompt
-. ~/.bash_prompt
+# . ~/.bash_prompt
+
+function _update_ps1() {
+    PS1="$(powerline-go -error $? -newline)"
+}
+
+if [ "$TERM" != "linux" ]; then
+    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+fi
