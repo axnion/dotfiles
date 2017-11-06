@@ -5,16 +5,16 @@ export TERM="xterm-256color"
 export EDITOR="vim"
 
 # Autostart tmux
-if [[ ! $TERM =~ screen ]]; then
-		exec tmux
-fi
+#if [[ ! $TERM =~ screen ]]; then
+#		exec tmux
+#fi
 
 # ALIASES
 alias dockerpurge='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q) && docker rmi $(docker images -q)'
 
 # Powerline-Go
 function _update_ps1() {
-    PS1="$(powerline-go -error $? -newline)"
+    PS1="$(powerline-go -error $? -newline -mode flat)"
 }
 
 if [ "$TERM" != "linux" ]; then
