@@ -163,7 +163,7 @@ exec google-chrome-stable
 exec atom
 exec skypeforlinux
 exec keepass
-exec mailspring
+exec dropbox
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
