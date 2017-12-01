@@ -3,6 +3,7 @@
 # EXPORTS
 export TERM="xterm-256color"
 export EDITOR="vim"
+export GOPATH="/home/axnion/Dev/go"
 
 # Autostart tmux
 #if [[ ! $TERM =~ screen ]]; then

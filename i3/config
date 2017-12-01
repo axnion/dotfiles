@@ -151,8 +151,9 @@ assign [class="Google-chrome"] $workspace1
 assign [class="Skype"] $workspace2
 assign [class="Slack"] $workspace2
 assign [class="Mailspring"] $workspace3
-assign [class="Atom"] $workspace5
+assign [class="Code"] $workspace5
 assign [class="KeePass2"] $workspace9
+assign [class="Toggl Desktop"] $workspace9
 assign [class="Spotify"] $workspace10
 for_window [class="Spotify"] move to workspace $workspace10 # Special treatment because of bug
 
@@ -160,10 +161,11 @@ for_window [class="Spotify"] move to workspace $workspace10 # Special treatment 
 exec spotify
 exec slack
 exec google-chrome-stable
-exec atom
+exec code
 exec skypeforlinux
 exec keepass
 exec dropbox
+exec toggldesktop
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -229,9 +231,9 @@ bar {
 }
 
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 5%+
+bindsym XF86AudioLowerVolume exec amixer -D pulse sset Master 5%-
+bindsym XF86AudioMute exec amixer -D pulse sset Master toggle
 
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play-pause
