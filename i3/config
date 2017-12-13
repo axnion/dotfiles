@@ -99,14 +99,14 @@ set $monitor2 "DP-2"
 set $monitor3 "HDMI-1"
 
 # Defining Workspaces
-set $workspace1 "1 Browser"
-set $workspace2 "2 Chat"
-set $workspace3 "3 Mail"
-set $workspace4 "4 ?"
-set $workspace5 "5 Editor"
-set $workspace6 "6 Terminal"
-set $workspace7 "7 ?"
-set $workspace8 "8 ?"
+set $workspace1 "1 Chat"
+set $workspace2 "2 Aux"
+set $workspace3 "3 Browser"
+set $workspace4 "4 Editor"
+set $workspace5 "5 Terminal"
+set $workspace6 "6 Empty"
+set $workspace7 "7 Empty"
+set $workspace8 "8 Empty"
 set $workspace9 "9 Utilities"
 set $workspace10 "10 Music"
 
@@ -137,8 +137,8 @@ bindsym $mod+Shift+0 move container to workspace $workspace10
 # Bind workspaces to monitors
 workspace $workspace1 output $monitor2
 workspace $workspace2 output $monitor2
-workspace $workspace3 output $monitor2
-workspace $workspace4 output $monitor2
+workspace $workspace3 output $monitor1
+workspace $workspace4 output $monitor1
 workspace $workspace5 output $monitor1
 workspace $workspace6 output $monitor1
 workspace $workspace7 output $monitor1
@@ -147,11 +147,11 @@ workspace $workspace9 output $monitor3
 workspace $workspace10 output $monitor3
 
 #Assign program to workspace
-assign [class="Google-chrome"] $workspace1
-assign [class="Skype"] $workspace2
-assign [class="Slack"] $workspace2
-assign [class="Mailspring"] $workspace3
-assign [class="Code"] $workspace5
+assign [class="Google-chrome"] $workspace3
+assign [class="Skype"] $workspace1
+assign [class="Slack"] $workspace1
+assign [class="TelegramDesktop"] $workspace1
+assign [class="Code"] $workspace4
 assign [class="KeePass2"] $workspace9
 assign [class="Toggl Desktop"] $workspace9
 assign [class="Spotify"] $workspace10
@@ -166,6 +166,7 @@ exec skypeforlinux
 exec keepass
 exec dropbox
 exec toggldesktop
+exec telegram-desktop
 
 # reload the configuration file
 bindsym $mod+Shift+c reload

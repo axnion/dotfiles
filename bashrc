@@ -1,5 +1,9 @@
 # .bashrc
 
+# Open terminal from same location as target window
+PROMPT_COMMAND='pwd > "${HOME}/.cwd"'
+[[ -f "${HOME}/.cwd" ]] && cd "$(< ${HOME}/.cwd)"
+
 # EXPORTS
 export TERM="xterm-256color"
 export EDITOR="vim"
