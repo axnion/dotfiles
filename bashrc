@@ -1,32 +1,23 @@
 # .bashrc
 
-# Open terminal from same location as target window
-PROMPT_COMMAND='pwd > "${HOME}/.cwd"'
-[[ -f "${HOME}/.cwd" ]] && cd "$(< ${HOME}/.cwd)"
+# Autostart tmux
+#if [[ ! $TERM =~ screen ]]; then
+#	exec tmux
+#fi
 
 # EXPORTS
 export TERM="xterm-256color"
 export EDITOR="vim"
 export GOPATH="/home/axnion/Dev/go"
 
-# Autostart tmux
-#if [[ ! $TERM =~ screen ]]; then
-#		exec tmux
-#fi
-
 # ALIASES
 alias dockerpurge='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q) && docker rmi $(docker images -q)'
 
 # Powerline-Go
 function _update_ps1() {
-    PS1="$(powerline-go -error $? -newline -mode flat)"
+		    PS1="$(~/Dev/go/bin/powerline-go -error $?)"
 }
 
 if [ "$TERM" != "linux" ]; then
-    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
-fi
-
-# Start xorg
-if [ -z "$DISPLAY" ] && [ -n "$XDG_VTNR" ] && [ "$XDG_VTNR" -eq 1 ]; then
-  exec startx
+	PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 fi
