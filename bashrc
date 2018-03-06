@@ -1,9 +1,9 @@
 # .bashrc
 
 # Autostart tmux
-#if [[ ! $TERM =~ screen ]]; then
-#	exec tmux
-#fi
+if [[ ! $TERM =~ screen ]]; then
+	exec tmux
+fi
 
 # EXPORTS
 export TERM="xterm-256color"
