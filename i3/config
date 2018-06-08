@@ -210,6 +210,9 @@ exec_always --no-startup-id ~/.config/polybar/polybar.sh
 # Set wallpaper using feh
 exec_always --no-startup-id feh --bg-scale  ~/Pictures/wallpaper.png
 
+# Starting gnome-keyring
+exec_always ~/.config/i3/scripts/gnome-keyring.sh
+
 # Start clipit for clipboard manager
 # exec --no-startup-id clipit
 
