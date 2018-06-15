@@ -33,5 +33,8 @@
     "gitlens.historyExplorer.enabled": true,
     "workbench.activityBar.visible": false,
 
-    "editor.rulers": [100],
+    "editor.rulers": [
+        100
+    ],
+    "workbench.iconTheme": "material-icon-theme",
 }
