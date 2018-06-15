@@ -31,5 +31,7 @@
         "javascript": "javascriptreawct"
     },
     "gitlens.historyExplorer.enabled": true,
-    "workbench.activityBar.visible": false
+    "workbench.activityBar.visible": false,
+
+    "editor.rulers": [100],
 }
