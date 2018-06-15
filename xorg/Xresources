@@ -49,4 +49,4 @@ rofi.font: Inconsolata Bold 22
 rofi.bw: 0
 rofi.eh: 2
 rofi.hide-scrollbar: true
-rofi.auto-select: true
+rofi.auto-select: false
