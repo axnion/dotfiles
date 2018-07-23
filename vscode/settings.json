@@ -37,4 +37,8 @@
         100
     ],
     "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDragAndDrop": false,
+    "window.menuBarVisibility": "toggle",
+    "explorer.confirmDelete": false,
+    "workbench.startupEditor": "newUntitledFile",
 }
