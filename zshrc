@@ -1,3 +1,5 @@
+if [ "$TMUX" = "" ]; then tmux; fi
+
 # EXPORTS
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH="/home/axnion/.oh-my-zsh"
@@ -21,3 +23,4 @@ source $ZSH/oh-my-zsh.sh
 
 # ALIASES
 alias docker-purge='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q) && docker rmi $(docker images -q)'
+

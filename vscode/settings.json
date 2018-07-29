@@ -41,4 +41,5 @@
     "window.menuBarVisibility": "toggle",
     "explorer.confirmDelete": false,
     "workbench.startupEditor": "newUntitledFile",
+    "editor.minimap.enabled": false,
 }
