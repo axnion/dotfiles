@@ -1,4 +1,6 @@
-if [ "$TMUX" = "" ]; then tmux; fi
+if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+        source /etc/profile.d/vte.sh
+fi
 
 # EXPORTS
 export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -23,4 +25,3 @@ source $ZSH/oh-my-zsh.sh
 
 # ALIASES
 alias docker-purge='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q) && docker rmi $(docker images -q)'
-

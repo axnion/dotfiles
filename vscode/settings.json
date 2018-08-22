@@ -31,15 +31,16 @@
         "javascript": "javascriptreawct"
     },
     "gitlens.historyExplorer.enabled": true,
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
 
     "editor.rulers": [
         100
     ],
     "workbench.iconTheme": "material-icon-theme",
     "explorer.confirmDragAndDrop": false,
-    "window.menuBarVisibility": "toggle",
+    "window.menuBarVisibility": "default",
     "explorer.confirmDelete": false,
     "workbench.startupEditor": "newUntitledFile",
     "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": true,
 }
