@@ -1,15 +1,20 @@
 # Dotfiles
 This repository contains my configuration files, configuration scripts, and package installation scripts.
 
-## Configuration Scripts
+All dotfiles and other configuration files are found under ./dotfiles
 
-## Installation scripts
+## Config Scripts
+All scripts for applying configurations and dotfiles are found under `./scripts/config`
+
+## Installation Scripts
+All scripts installing software packages are found under `./scripts/install`
+
 |Name|Package Manager|3rd party repository|
 |----|---------------|--------------------|
 |Discord|snap|-|
 |Docker + Docker Compose|apt|-|
 |Dropbox|apt|-|
-|Golang|-|-|
+|Golang|-|-
 |Google Chrome|-|-|
 |Java Development Kit|-|-|
 |KeePassX|-|-|

@@ -1,8 +1,0 @@
-#!/bin/bash
-
-source vars
-
-echo $DOTFILES_DIR
-
-$DOTFILES_DIR/provision_scripts/vscode/install.sh     # Visual Studio Code
-$DOTFILES_DIR/provision_scripts/discord/install.sh    # Discord

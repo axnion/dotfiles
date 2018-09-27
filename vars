@@ -1,5 +1,0 @@
-#!/bin/bash
-
-echo "Applying environment variables"
-
-export DOTFILES_DIR="$( cd "$(dirname "$0")" ; pwd -P )"
