@@ -1,2 +1,2 @@
 # Linux Configurations
-Put configurations folder in user home folder
+My personal dot files used on my workstations.
