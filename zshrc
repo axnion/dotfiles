@@ -1,7 +1,3 @@
-if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
-        source /etc/profile.d/vte.sh
-fi
-
 # EXPORTS
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH="/home/axnion/.oh-my-zsh"
@@ -10,7 +6,7 @@ export EDITOR="vim"
 export GOPATH="/home/axnion/Development/go"
 
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="dst"
+ZSH_THEME="kardan"
 
 plugins=(
   git
