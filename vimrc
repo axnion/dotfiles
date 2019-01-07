@@ -4,7 +4,9 @@ filetype plugin indent on
 
 syntax on
 
-set tabstop=4
+set tabstop=2
+set shiftwidth=2
+set expandtab
 set number
 set autoindent
 set smartindent

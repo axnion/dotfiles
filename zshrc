@@ -6,7 +6,7 @@ export EDITOR="vim"
 export GOPATH="/home/axnion/Development/go"
 
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="kardan"
+ZSH_THEME="powerlevel9k/powerlevel9k"
 
 plugins=(
   git
