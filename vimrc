@@ -24,6 +24,9 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'dyng/ctrlsf.vim'
+Plug 'sheerun/vim-polyglot'
+Plug 'w0rp/ale'
+Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 
