@@ -5,8 +5,13 @@ export TERM="xterm-256color"
 export EDITOR="vim"
 export GOPATH="/home/axnion/Development/go"
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="avit"
 
 plugins=(
   git
