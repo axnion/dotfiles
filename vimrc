@@ -13,6 +13,7 @@ Plug 'patstockwell/vim-monokai-tasty'
 call plug#end()
 
 colorscheme vim-monokai-tasty
+
 set nocompatible
 filetype off
 filetype plugin indent on
@@ -42,7 +43,7 @@ let NERDTreeShowHidden=1
 let g:tmux_navigator_no_mappings = 1
 nnoremap <silent> <C-Left> :TmuxNavigateLeft<cr>
 nnoremap <silent> <C-Down> :TmuxNavigateDown<cr>
-nnoremap <silent> <C-Up>   :TmuxNavigateUp<cr>
+nnoremap <silent> <C-Up> :TmuxNavigateUp<cr>
 nnoremap <silent> <C-Right> :TmuxNavigateRight<cr>
 
 let g:ctrlsf_default_view_mode = 'compact'
