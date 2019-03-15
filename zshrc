@@ -1,22 +1,23 @@
-# EXPORTS
-export PATH=$HOME/bin:/usr/local/bin:$PATH
-export ZSH="/home/axnion/.oh-my-zsh"
-export TERM="xterm-256color"
+export ZSH="/home/$USER/.oh-my-zsh"
 export EDITOR="vim"
-export GOPATH="/home/axnion/Development/go"
+export PATH=$PATH:~/bin
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+if [ -f "./zshrc_work" ]
+then
+  source ./zshrc_work
+fi
 
+if [ -f "./zshrc_home" ]
+then
+  source ./zshrc_home
+fi
 
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="avit"
+TERM=xterm-256color
 
 plugins=(
   git
   docker
-  gradle
   jsontools
   node
   npm
@@ -24,5 +25,10 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# ALIASES
-alias docker-purge='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q) && docker rmi $(docker images -q)'
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+alias docker-purge='docker kill $(docker ps -a -q) || true && docker rm $(docker ps -a -q) -f || true && docker rmi $(docker images -q) -f'
+
+setopt no_share_history
