@@ -1,15 +1,15 @@
-export ZSH="/home/$USER/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 export EDITOR="vim"
 export PATH=$PATH:~/bin
 
-if [ -f "./zshrc_work" ]
+if [ -f "$HOME/zshrc_work" ]
 then
-  source ./zshrc_work
+  source $HOME/.zshrc_work
 fi
 
-if [ -f "./zshrc_home" ]
+if [ -f "$HOME/.zshrc_home" ]
 then
-  source ./zshrc_home
+  source $HOME.zshrc_home
 fi
 
 ZSH_THEME="avit"
@@ -32,3 +32,5 @@ export NVM_DIR="$HOME/.nvm"
 alias docker-purge='docker kill $(docker ps -a -q) || true && docker rm $(docker ps -a -q) -f || true && docker rmi $(docker images -q) -f'
 
 setopt no_share_history
+
+alias runsync="~/Development/devsync/scripts/sync.sh ~/Development/portal /home/sts/current ~/Development/devsync/exclude/portal.txt"
