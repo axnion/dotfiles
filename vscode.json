@@ -1,7 +1,4 @@
 {
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
     "workbench.colorCustomizations": {
         "activityBarBadge.background": "#C6FF00",
         "list.activeSelectionForeground": "#C6FF00",
@@ -15,32 +12,33 @@
         "tab.activeBorder": "#C6FF00",
         "notificationLink.foreground": "#C6FF00"
     },
-    "materialTheme.cache.workbench.settings": {
-        "accent": "Acid Lime",
-        "accentPrevious": "Blue"
-    },
 
     "vim.useSystemClipboard": true,
-
-    "editor.fontSize": 16,
-    "editor.tabSize": 2,
-
-    "emmet.useNewEmmet": true,
-    "emmet.showExpandedAbbreviation": "always",
-    "emmet.syntaxProfiles": {
-        "javascript": "javascriptreawct"
+    "vim.handleKeys": {
+        "<C-b>": false,
     },
-    "gitlens.historyExplorer.enabled": true,
-    "workbench.activityBar.visible": true,
 
-    "editor.rulers": [
-        100
-    ],
+    "editor.fontSize": 14,
+    "editor.tabSize": 2,
+    "editor.rulers": [80],
+    "gitlens.historyExplorer.enabled": true,
+    "workbench.activityBar.visible": false,
+
     "workbench.iconTheme": "material-icon-theme",
     "explorer.confirmDragAndDrop": false,
     "window.menuBarVisibility": "default",
     "explorer.confirmDelete": false,
     "workbench.startupEditor": "newUntitledFile",
     "editor.minimap.enabled": false,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Flatland Monokai",
+    "search.location": "panel",
     "breadcrumbs.enabled": true,
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "window.titleBarStyle": "custom",
+    "materialTheme.autoApplyIcons": true,
 }
