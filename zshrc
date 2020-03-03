@@ -1,11 +1,9 @@
 export ZSH="$HOME/.oh-my-zsh"
 export EDITOR="vim"
 export PATH=$PATH:~/bin
+export GOPATH=$HOME/Development/go
 
-if [ -f "$HOME/zshrc_work" ]
-then
-  source $HOME/.zshrc_work
-fi
+source $HOME/.zshrc_work
 
 if [ -f "$HOME/.zshrc_home" ]
 then
@@ -25,12 +23,27 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+alias docker-purge='docker kill $(docker ps -a -q) || true && docker rm $(docker ps -a -q) -f || true && docker rmi $(docker images -q) -f'
+
+#if [ -f ~/.ssh/agent.env ] ; then
+#    . ~/.ssh/agent.env > /dev/null
+#    if ! kill -0 $SSH_AGENT_PID > /dev/null 2>&1; then
+#        echo "Stale agent file found. Spawning new agent… "
+#        eval `ssh-agent | tee ~/.ssh/agent.env`
+#        ssh-add
+#    fi
+#else
+#    echo "Starting ssh-agent"
+#    eval `ssh-agent | tee ~/.ssh/agent.env`
+#    ssh-add
+#fi
+
+setopt no_share_history
+
+eval "$(ntfy shell-integration)"
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-alias docker-purge='docker kill $(docker ps -a -q) || true && docker rm $(docker ps -a -q) -f || true && docker rmi $(docker images -q) -f'
-
-setopt no_share_history
-
-alias runsync="~/Development/devsync/scripts/sync.sh ~/Development/portal /home/sts/current ~/Development/devsync/exclude/portal.txt"
+source ~/.bin/tmuxinator.zsh
